@@ -10,6 +10,7 @@ const cors = require('cors');
 
 
 
+
 // middlewares
 app.use(helmet())
 app.use(express.static('public'));
